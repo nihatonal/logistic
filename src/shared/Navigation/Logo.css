@@ -1,0 +1,27 @@
+.logo {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #1F2B6C;
+  cursor: pointer;
+}
+.logo span {
+  color: #159eec;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 28px;
+    line-height: 32px;
+    color: #BFD2F8;
+    cursor: pointer;
+  }
+  .logo span {
+    color: #FCFEFE;
+  }
+  .logo-mobile {
+    display: block;
+  }
+}
