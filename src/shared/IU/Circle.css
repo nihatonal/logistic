@@ -1,0 +1,33 @@
+.circle-wrapper {
+  width: 29px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle-item:first-child {
+  background: #10a9ff;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+}
+.circle-item:last-child {
+  background: #2c4776;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+@media screen and (max-width: 600px) {
+  .circle-wrapper {
+    width: 8px;
+    height: 4px;
+  }
+  .circle-item:first-child {
+    width: 2.4px;
+    height: 2.4px;
+  }
+  .circle-item:last-child {
+    width: 4px;
+    height: 4px;
+  }
+}

@@ -16,3 +16,15 @@
 .nav-item:hover {
   color: #0989ff;
 }
+.selected {
+  color: #0989ff;
+}
+.side-menu {
+  display: none;
+}
+
+@media screen and (max-width:600px){
+  .nav-wrapper {
+    display: none;
+  }
+}

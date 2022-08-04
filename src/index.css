@@ -1,3 +1,9 @@
+html,
+body {
+  min-height: 100% !important;
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,16 +11,17 @@
 }
 
 .section-desc {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 38px;
   color: #3f3e3e;
+  text-align: justify;
 }
 
 .section-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -23,7 +30,7 @@
 }
 
 .section-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
@@ -31,4 +38,29 @@
   align-items: center;
   text-transform: uppercase;
   color: #2c4776;
+  display: flex;
+  align-items: center;
+  margin: 11px 0 38px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .display_none {
+    display: none;
+  }
+  .section-desc {
+    font-size: 12px;
+    line-height: 20px;
+    width: 270px;
+    text-align: left;
+  }
+  .section-title {
+    font-size: 24px;
+    margin: 2px 0 4px 0;
+  }
+  .section-subtitle {
+    font-size: 11px;
+  }
+  .text-align-justify {
+    text-align: justify;
+  }
 }

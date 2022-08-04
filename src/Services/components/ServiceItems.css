@@ -1,0 +1,54 @@
+.service-items-container {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .service-items-container {
+    display: flex;
+    width: 320px;
+    height: auto;
+  }
+  .service-menu-desc-mobile {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3f3e3e;
+    margin: 0;
+  }
+  .service-menu_items_mobile {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #3f3e3e;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style: none;
+    margin-top: 10px;
+  }
+  .service-menu_items_mobile li {
+    margin-bottom: 10px;
+  }
+  .service-menu_items_mobile li:last-child {
+    margin-bottom: 0;
+  }
+  .service-menu_items_mobile li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: #10a9ff;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .service-menu-desc-mobile-wrapper {
+    width: 270px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+}

@@ -1,0 +1,132 @@
+.hero-container {
+  position: relative;
+  width: 1980px;
+  height: 1028px;
+  border: 1px solid transparent;
+}
+.hero-phone {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 31px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #303030;
+  position: absolute;
+  bottom: 35px;
+  right: 53px;
+}
+.hero_content {
+  height: 815px;
+  width: 926px;
+  margin: 107px 0 0 316px;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 111.69%;
+  text-transform: uppercase;
+  color: #2c4776;
+  margin: 17px 0 40px 0;
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-title span {
+  color: #10a9ff;
+}
+.hero-suptitle {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #8e8e8e;
+}
+
+.hero-content-item {
+  width: 926px;
+  height: 315px;
+}
+.hero-content-item p {
+  display: flex;
+  align-items: center;
+}
+.hero-content-item p:nth-last-child(3) {
+  margin: 38px 0 32px 0;
+}
+.hero-content-item p:nth-last-child(1) {
+  margin-top: 32px;
+}
+.hero-content-item span {
+  display: inline-block;
+  width: 2px;
+  height: 53px;
+  background: #415373;
+  border-radius: 4px;
+  margin-right: 25px;
+}
+.hero-content-item p:nth-last-child(1) span,
+.hero-content-item p:nth-last-child(2) span {
+  width: 2px;
+  height: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .social-icons-destkop {
+    display: none;
+  }
+  .hero-container {
+    position: relative;
+    width: 320px;
+    height: auto;
+    padding-left: 18px;
+    margin-top: 65px;
+  }
+  .hero-phone {
+    display: none;
+  }
+  .hero_content {
+    height: auto;
+    width: 320;
+    margin: 0;
+  }
+  .hero-title {
+    font-size: 29px;
+    margin: 22px 0 39px 0;
+    width: 320px;
+  }
+  .hero-suptitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .hero-content-item {
+    width: 285px;
+    height: auto;
+  }
+  .hero-content-item p:nth-last-child(3) {
+    margin: 20px 0;
+  }
+  .hero-content-item p:nth-last-child(1) {
+    margin-top: 18px;
+  }
+  .hero-content-item span {
+    display: inline-block;
+    width: 1px;
+    height: 68px;
+    background: #415373;
+    border-radius: 4px;
+    margin-right: 11px;
+  }
+  .hero-content-item p:nth-last-child(1) span,
+  .hero-content-item p:nth-last-child(2) span {
+    width: 1px;
+    height: 16px;
+  }
+  .hero-content-item .section-desc {
+    text-align: left;
+  }
+}

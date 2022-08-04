@@ -1,0 +1,84 @@
+.office-wrapper {
+  width: 594px;
+  height: 742px;
+  margin-left: 71px;
+}
+
+.office-items-wrapper {
+  width: 594px;
+  height: 677px;
+  background: #f3f6f8;
+  border-radius: 10px;
+  padding: 39px 0 0 48px;
+  margin-top: 27px;
+}
+.office-items {
+  width: 594px;
+  height: 458px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 65px;
+  align-items: center;
+}
+.office-item {
+  height: 81px;
+  width: 279px;
+}
+
+.city-name {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  color: #636363;
+  display: flex;
+  align-items: center;
+}
+.office-item img {
+  margin-right: 13px;
+}
+
+@media screen and (max-width: 600px) {
+  .office-wrapper {
+    width: 320px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 34px;
+  }
+
+  .office-items-wrapper {
+    width: 594px;
+    height: auto;
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 29px;
+  }
+  .office-items {
+    width: 320px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 25px;
+    align-items: center;
+  }
+  .office-item {
+    height: 81px;
+    width: 279px;
+  }
+
+  .city-name {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #636363;
+    display: flex;
+    align-items: center;
+  }
+  .office-item img {
+    margin-right: 13px;
+  }
+}

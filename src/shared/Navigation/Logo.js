@@ -1,13 +1,12 @@
 import React from "react";
 
-
-import logo from '../../assets/images/logo.svg';
 import "./Logo.css";
 
 const Logo = (props) => {
   return (
-    <div>
-      <img src={logo} alt='logo' />
+    <div className="logo">
+      <img className="logo_destkop" src={props.logo} alt='logo' />
+      <img className="logo_mobile" src={props.logo_mobile} alt='logo'/>
     </div>
   );
 };

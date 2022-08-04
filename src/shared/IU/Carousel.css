@@ -1,0 +1,63 @@
+.container {
+  height: 187px;
+  width: 1375px;
+  background: transparent;
+}
+
+.carousel_btn-wrapper {
+  width: 52px;
+  height: 52px;
+  background: #2c4776;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s;
+  visibility: visible;
+  cursor: pointer;
+  position: absolute;
+  top: -18px;
+}
+.slick-prev {
+  left: -26px;
+  z-index: 99;
+}
+.slick-next {
+  right: 0;
+  z-index: 99;
+}
+.carousel_btn-wrapper:hover {
+  background: #10a9ff;
+}
+.carousel_btn-wrapper .fa {
+  font-size: 20px;
+}
+.slick-arrow {
+  position: absolute;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 320px;
+    height: 187px;
+    margin: 0;
+  }
+  .carousel_btn-wrapper {
+    width: 30px;
+    height: 30px;
+  }
+  .left-btn {
+    top: -10px;
+    left: 10px;
+  }
+  .right-btn {
+    top: -10px;
+    right: -15px;
+  }
+}

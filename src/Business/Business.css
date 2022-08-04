@@ -1,0 +1,204 @@
+.business-container {
+  width: 1980px;
+  height: 784px;
+  margin-bottom: 242px;
+}
+
+.business-header {
+  height: 165px;
+  width: 1415px;
+  position: relative;
+  margin-left: 326px;
+}
+.business-circle {
+  left: -49px;
+}
+.business-desc {
+  width: 1415px;
+}
+.business-content {
+  width: 1405px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 48px 0 0 323px;
+  position: relative;
+}
+.business-item-wrapper {
+  width: 487px;
+  min-height: 157px;
+  margin-right: 113px;
+  margin-bottom: 40px;
+}
+.business-item-content {
+  display: flex;
+}
+.business-item-content-item {
+  height: auto;
+}
+.business-item-line {
+  width: 2px;
+  background: #415373;
+  border-radius: 4px;
+  margin-right: 26px;
+}
+/* .business-item-content {
+  height: 100%;
+  padding-left: 26px;
+  border: 1px solid red;
+} */
+a .business-item-wrapper:nth-child(2) {
+  order: 4;
+  width: 487px;
+  height: 187px;
+}
+.business-item-wrapper:nth-child(2) .business-item-content {
+  width: 300px;
+}
+.business-item-wrapper:nth-child(3) {
+  order: 5;
+  position: relative;
+  bottom: 40px;
+}
+.business-item-wrapper:nth-child(4) {
+  order: 2;
+  margin-bottom: 40px;
+}
+.business-item-wrapper:nth-child(5) {
+  order: 4;
+}
+.business-item-wrapper:nth-child(5) .business-item-content {
+  width: 657px;
+}
+.business-item-number {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 38px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #eeeeee;
+  margin-bottom: 12px;
+  margin-left: 26px;
+}
+.business-item-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2c4776;
+  margin-bottom: 18px;
+}
+.business-item-desc {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #3f3e3e;
+}
+/* .business-item-content::before {
+  content: " ";
+  width: 2px;
+  display: block;
+  border-radius: 4px;
+  background: #415373; 
+} */
+
+@media screen and (max-width: 600px) {
+  .business-container {
+    width: 320px;
+    height: auto;
+    margin-bottom: 0;
+    padding-left: 18px;
+  }
+
+  .business-header {
+    height: auto;
+    width: 320px;
+    position: relative;
+    margin-left: 0;
+  }
+  .business-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2px;
+  }
+  .business-circle {
+    position: static;
+    margin: 10px 0 21px 0;
+  }
+  .business-desc {
+    width: 300px;
+  }
+  .business-content {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 48px 0 0 0;
+    position: relative;
+  }
+  .business-item-wrapper {
+    width: 320px;
+    min-height: auto;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .business-item-content {
+    display: flex;
+  }
+  .business-item-content-item {
+    height: auto;
+  }
+  .business-item-line {
+    width: 1px;
+    background: #415373;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  .business-item-wrapper:nth-child(2) {
+    order: 1;
+    width: 320px;
+    height: auto;
+  }
+  .business-item-wrapper:nth-child(2) .business-item-content {
+    width: 215px;
+  }
+  .business-item-wrapper:nth-child(3) {
+    order: 2;
+    position: static;
+  }
+  .business-item-wrapper:nth-child(4) {
+    order: 3;
+    margin-bottom: 30px;
+  }
+
+  .business-item-wrapper:nth-child(5) {
+    order: 4;
+    margin-bottom: 0;
+  }
+  .business-item-wrapper:nth-child(4) .business-item-content {
+    width: 250px;
+  }
+  .business-item-wrapper:nth-child(5) .business-item-content {
+    width: 280px;
+  }
+  .business-item-number {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 7px;
+    padding-left: 0;
+    margin-left: 12px;
+  }
+  .business-item-title {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 8px;
+  }
+  .business-item-desc {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

@@ -2,7 +2,7 @@
     display: none;
   }
   @media screen and (max-width: 600px) {
-    .mobile-menu {
+    /* .mobile-menu {
       width: 24px;
       height: 18px;
       display: flex;
@@ -12,9 +12,9 @@
       transition: all 0.3s linear;
       position: relative;
       z-index: 99;
-    }
+    } */
   
-    .line {
+    /* .line {
       width: 24px;
       height: 3px;
       background: #FCFEFE;
@@ -32,7 +32,7 @@
     .line-3{
       transform-origin: 0% 100%;
       transform: rotate(-45deg);
-    }
+    } */
     /* .active-hamburger{
       transform: rotateZ(90deg);
     } */

@@ -1,0 +1,21 @@
+.main-container {
+  width: 1980px;
+  margin: 0 auto;
+  position: relative;
+}
+.map-business {
+  position: absolute;
+  top: 6138px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .main-container .map-business {
+    display: none;
+  }
+}

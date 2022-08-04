@@ -1,0 +1,66 @@
+.job_map-wrapper {
+  width: 555px;
+  height: 853px;
+  position: absolute;
+  left: 4px;
+  top: 150px;
+  z-index: -1;
+}
+.job_map-wrapper .job_map-image {
+  position: relative;
+  bottom: 0;
+  width: 555px;
+  height: 853px;
+}
+.job_map-main {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: -1170px;
+}
+
+.job_map-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  position: absolute;
+  z-index: 99;
+}
+.job_map-item p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #636363;
+}
+.job_map-item-icon-wrapper {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.job_map-item-icon {
+  width: 23px;
+  height: 23px;
+  background: #4ddf19;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vladivostok {
+  top: 760px;
+  left: 121px;
+}
+@media screen and (max-width: 600px) {
+  .job_map-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,82 @@
+.hero_map-wrapper {
+  width: 708px;
+  height: 1098px;
+  position: absolute;
+  right: 0;
+  top: -120px;
+  overflow: hidden;
+}
+.hero_map-wrapper .hero_map-image {
+  position: relative;
+  bottom: 0;
+  /* left: 70px; */
+}
+.hero_map-main {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 70px;
+}
+.hero_map-part {
+  position: absolute;
+  z-index: 2;
+  top: 639px;
+  left: 0;
+}
+.hero_map-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  position: absolute;
+  z-index: 10;
+}
+.hero_map-item p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #636363;
+}
+.hero_map-item-icon-wrapper {
+  width: 58px;
+  height: 58px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.hero_map-item-icon {
+  width: 38px;
+  height: 38px;
+  background: #4ddf19;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-item {
+  color: #fff;
+  font-size: 28px;
+}
+.saint-petersburg {
+  top: 264px;
+  left: 315px;
+}
+.moscow {
+  top: 460px;
+  left: 245px;
+}
+.novorossiysk {
+  top: 706px;
+  left: -30px;
+}
+
+@media screen and (max-width: 600px) {
+  .hero_map-wrapper {
+    display: none;
+  }
+}
